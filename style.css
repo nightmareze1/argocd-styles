@@ -14,9 +14,6 @@
   background: var(--sidebar-background);
 }
 
-.sidebar__logo img { 
-  content: url(https://assets.website-files.com/613658193a97c8a9e51ed56a/6140a7bdb20c296e2b09b8be_treinta.svg);
-}
 .page__content-wrapper {
   background: var(--page-and-panel-background) !important;
 }
@@ -66,4 +63,9 @@ a,
 
 .tabs__indicator {
   background: var(--primary) !important;
+}
+
+.nav-bar__logo img,
+.sidebar__logo img {
+  content: url(https://assets.website-files.com/613658193a97c8a9e51ed56a/6140a7bdb20c296e2b09b8be_treinta.svg);
 }
